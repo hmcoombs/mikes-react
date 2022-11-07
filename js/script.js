@@ -52,3 +52,14 @@ function getMoviesByName() {
             })
         .catch(error => console.log(error));
 };
+
+//daily chal with instructor
+
+// const getMoviesByName = async (title) => {
+//     const result = await fetch(`http://www.omdbapi.com/?t=${title}apikey=[]&`);
+//     const movie = await result.json();
+//     console.log (movie);
+// };
+
+// getMoviesByName('batman');
+
